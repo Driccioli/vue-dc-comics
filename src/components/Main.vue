@@ -11,10 +11,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../style/colors.scss";
     .main{
         font-size: 50px;
         font-weight: bold;
-        background: #333;
+        background: $dark-mode;
         padding-top: 60px;
         padding-bottom: 60px;
         text-align: center;
